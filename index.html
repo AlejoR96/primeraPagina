@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="">
+    <meta charset="" />
     <title>Mi primera pagina web</title>
-    <meta name="description" content="Esta es mi primera pagina web"/>
-    <meta name= "author"= "Fatz">
-    <meta name= "Keywords"= "Mi primer titulo, mi primer pagina, pagina web">
+    <meta name="description" content="Esta es mi primera pagina web" />
+    <meta name="author" ="SantoGuerrero" />
+    <meta name="Keywords" ="Mi primer titulo, mi primer pagina, pagina web" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
-    <!-- Head principal -->
-    <header>
-      <h1>Mi Blog </h1>
-    </header>
     
-    <!-- Menu of options -->
-    <nav>
-      <ul>
-        <li>Principal</li>
-        <li>Ayuda</li>
-        <li>Contacto</li>
-      </ul>  
-    </nav>
+    <div class="group"> <!-- Start Container --> 
+      <!-- Head principal -->
+      <header class="Header">  
+        <h1>Mi Blog</h1>
+      </header>
+      <!-- Head principal -->
 
-    <!-- view of article  -->
-    <section>
-      <article><!-- Star article one -->
-        <hgroup>
-          <h1>Titulo del primer articulo</h1>
-          <h2>Subtitulo del primer articulo</h2>
-        </hgroup>
-        <time datetime="12-08-21"> Publicado 12-08-21 </time>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur impedit ipsam ut quidem ducimus <small>libero quasi voluptatum</small> ea eaque explicabo nihil sint quam exercitationem quibusdam similique labore, quos,<cite> molestiae voluptatibus!</cite></p>
-        <img src="images/html5.png" alt="">
+      <!-- Menu of options -->
+      <nav class="Nav">
+        <ul>
+          <li>Principal</li>
+          <li>Ayuda</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <!-- Menu of options -->
 
-        <footer>
-          <p>Comentarios (0)</p>
-        </footer>
+      <!-- view of article  -->
+      <section class="Section">
+        <article>
+          <!-- Star article one -->
+          <hgroup>
+            <h1>Titulo del primer articulo</h1>
+            <h2>Subtitulo del primer articulo</h2>
+          </hgroup>
+          <time datetime="12-08-21"> Publicado 12-08-21 </time>
+          <img src="images/html5.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequuntur impedit ipsam ut quidem ducimus
+            <small>libero quasi voluptatum</small> ea eaque explicabo nihil sint
+            quam exercitationem quibusdam similique labore, quos,<cite>
+              molestiae voluptatibus!</cite
+            >
+          </p>
+          
 
-       <address>
-        <a href="http://Google.com">Visita Google</a>
-       </address>
-       
-      </article><!-- End article one -->
-      
-      <article><!-- Star article two -->
-        <hgroup>
-          <h1>Titulo del segundo articulo</h1>
-          <h2>Subtitulo del segundo articulo</h2>  
-        </hgroup>
-        <time datetime="12-08-21"> Publicado 12-08-21 </time>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusantium in nemo odit, dolore voluptatibus nulla? Inventore architecto minus vel sit sunt dolore accusamus excepturi saepe. Voluptatum saepe sunt recusandae?</p>
+          <footer>
+            <p>Comentarios (0)</p>
+          </footer>
 
-        
+          <address>
+            <a href="http://Google.com">Visita Google</a>
+          </address>
+        </article>
+        <!-- End article one -->
 
-        <footer>
-         <p>Comentarios (10)</p>
-        </footer>
-      </article><!-- End article two -->
-    </section>
-    
-    <aside>
-      <blockquote cite="http://yotube.com">
-        Mensaje 1
-      </blockquote> 
+        <article>
+          <!-- Star article two -->
+          <hgroup>
+            <h1>Titulo del segundo articulo</h1>
+            <h2>Subtitulo del segundo articulo</h2>
+          </hgroup>
+          <time datetime="12-08-21"> Publicado 12-08-21 </time>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            accusantium in nemo odit, dolore voluptatibus nulla? Inventore
+            architecto minus vel sit sunt dolore accusamus excepturi saepe.
+            Voluptatum saepe sunt recusandae?
+          </p>
 
-      <blockquote cite="http://yotube.com">
-       Mensaje 2 
-      </blockquote> 
-    </aside>
- 
-    <!-- pie de pagina -->
-    <footer>
-      Derechos reservados 2020-2021
-    </footer>
+          <footer>
+            <p>Comentarios (10)</p>
+          </footer>
+        </article>
+        <!-- End article two -->
+      </section>
+
+      <aside class="Aside">
+        <blockquote cite="http://youtube.com">Mensaje 1</blockquote>
+
+        <blockquote cite="http://youtube.com">Mensaje 2</blockquote>
+      </aside>
+
+      <!-- pie de pagina -->
+      <footer class="Footer">Derechos reservados 2020-2021</footer>
+
+    </div> <!-- End Container -->
+
   </body>
 </html>
